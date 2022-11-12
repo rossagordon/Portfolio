@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Skills = () => {
   return (
@@ -12,47 +12,93 @@ const Skills = () => {
 
         {/* Icons */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 text-black font-bold">
-            
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"} alt="HTML icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
+              }
+              alt="HTML icon"
+            />
             <p className="my-4">HTML</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"} alt="CSS icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
+              }
+              alt="CSS icon"
+            />
             <p className="my-4">CSS</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"} alt="JavaScript icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+              }
+              alt="JavaScript icon"
+            />
             <p className="my-4">JavaScript</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} alt="React icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+              }
+              alt="React icon"
+            />
             <p className="my-4">React</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-3" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"} alt="Tailwind icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-3"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+              }
+              alt="Tailwind icon"
+            />
             <p className="my-4">Tailwind</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-3" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"} alt="Bootstrap icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-3"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'
+              }
+              alt="Bootstrap icon"
+            />
             <p className="my-4">Bootstrap</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"} alt="Node icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+              }
+              alt="Node icon"
+            />
             <p className="my-4">Node</p>
           </div>
 
-          <div className="shadow-md bg-[#fffffe] shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"} alt="Git icon" />
+          <div className="shadow-md bg-[#e5e5e5] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={
+                'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg'
+              }
+              alt="Git icon"
+            />
             <p className="my-4">Git</p>
           </div>
-          
         </div>
       </div>
     </div>

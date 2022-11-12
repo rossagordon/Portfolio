@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -12,11 +12,16 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8" name="contact">
-          <p className="text-5xl font-bold inline">
-            Contact
-          </p>
+          <p className="text-5xl font-bold inline">Contact</p>
           <p className="text-xl py-4 border-b">
-            Let's work together. Send me an <a className="border-b hover:text-[#FCA311]" href="mailto:rossagordonstl@gmail.com">email</a> or use the form below.
+            Let's work together. Send me an{' '}
+            <a
+              className="border-b hover:text-[#FCA311]"
+              href="mailto:rossagordonstl@gmail.com"
+            >
+              email
+            </a>{' '}
+            or use the form below.
           </p>
         </div>
         <input

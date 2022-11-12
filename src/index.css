@@ -6,5 +6,8 @@
 
 * {
    font-family: 'Arvo', serif;
+}
 
+a {
+   cursor: pointer;
 }

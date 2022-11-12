@@ -1,13 +1,13 @@
-import React from "react";
-import { BsEnvelopeFill, BsLinkedin, BsGithub } from "react-icons/bs";
-import Github from "../assets/github.svg"
+import React from 'react';
+import { BsEnvelopeFill, BsLinkedin, BsGithub } from 'react-icons/bs';
+import Github from '../assets/github.svg';
 
 const Footer = () => {
   return (
     <div className="w-full h-[210px] bg-[#000000] text-white flex justify-center items-center">
       {/* Container */}
       <div className="font-bold inline">
-        <p className="text-3xl">Let's Connect</p>
+        <p className="text-3xl">Let's Connect.</p>
         <div className="flex flex-cols-2 mx-auto justify-between p-6">
           {/* Email */}
           <a
