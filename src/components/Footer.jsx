@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-cols-2 mx-auto justify-between p-6">
           {/* Email */}
           <a
-            className="text-3xl hover:text-[#FCA311]"
+            className="text-3xl hover:text-[#8D99AE]"
             href="mailto:rossagordonstl@gmail.com"
           >
             <BsEnvelopeFill />
@@ -19,7 +19,7 @@ const Footer = () => {
 
           {/* LinkedIn */}
           <a
-            className="text-3xl hover:text-[#FCA311]"
+            className="text-3xl hover:text-[#8D99AE]"
             href="https://www.linkedin.com/in/rossagordon/"
             target="_blank"
           >
@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* GitHub */}
           <a
-            className="text-3xl hover:text-[#FCA311]"
+            className="text-3xl hover:text-[#8D99AE]"
             href="https://github.com/rossagordon"
             target="_blank"
           >

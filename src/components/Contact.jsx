@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#000000] text-white flex justify-center items-center p-4"
+      className="w-full h-screen bg-[#000] text-[#EDF2F4] flex justify-center items-center p-4"
     >
       <form
         action="https://getform.io/f/024fc0fe-3afa-43d2-8a91-d57ef82bee64"
@@ -16,7 +16,7 @@ const Contact = () => {
           <p className="text-xl py-4 border-b">
             Let's work together. Send me an{' '}
             <a
-              className="border-b hover:text-[#FCA311]"
+              className="border-b hover:text-[#8D99AE]"
               href="mailto:rossagordonstl@gmail.com"
             >
               email
@@ -42,7 +42,7 @@ const Contact = () => {
           className="bg-[#e8e4e6] p-2"
           placeholder="Message"
         ></textarea>
-        <button className="bg-[#FCA311] text-black font-bold border-2 border-black px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="bg-[#EDF2F4] hover:bg-[#8D99AE] text-black font-bold border-2 border-black px-4 py-3 my-8 mx-auto flex items-center">
           Submit
         </button>
       </form>
