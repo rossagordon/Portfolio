@@ -3,6 +3,7 @@ import Pourover from '../assets/espresso.jpg';
 import Scorpion from '../assets/scorpion.png';
 import Edgewood from '../assets/green.png';
 import Seal from '../assets/seal.png';
+import Generator from '../assets/imagegenerator.png';
 
 const Projects = () => {
   return (
@@ -16,26 +17,26 @@ const Projects = () => {
 
         {/* Projects */}
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4 mt-[-20px] text-black">
-          {/* Project 1 • AI Image Generator */}
-          <div className="rounded-md shadow-lg bg-[#fff]">
+          {/* Project 1 • Good Coffee */}
+          <div className="rounded-md shadow-lg">
             <a href="https://coffeeshopsite.netlify.app" target="_blank">
-              <img
-                src={Pourover}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
+            <img
+              src={Pourover}
+              className="rounded-lg hover:scale-105 duration-300"
+              alt="A hand poured latte next to a laptop"
+            />
             </a>
             <div className="px-6 py-4 text-center">
               <div className="font-bold text-xl mb-2 text-center">
-                AI Image Generator
+                Good Coffee
               </div>
-              <p className="pb-2">Description</p>
+              <p className="pb-2">Coffee Shop themed landing page</p>
               <p className="font-extrabold">Technologies Used:</p>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>React, Tailwind CSS</p>
             </div>
             <div className="text-center mt-5">
               <a href="https://coffeeshopsite.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+              <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
                   Demo
                 </button>
               </a>
@@ -50,154 +51,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 2 • CRUD App */}
-          <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://coffeeshopsite.netlify.app" target="_blank">
-              <img
-                src={Pourover}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
-            </a>
-            <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">CRUD App</div>
-              <p className="pb-2">Description</p>
-              <p className="font-extrabold">Technologies Used:</p>
-              <p>Lorem ipsum dolor sit.</p>
-            </div>
-            <div className="text-center mt-5">
-              <a href="https://coffeeshopsite.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-
-          {/* Project 3 • Crypto Tracker */}
-          <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://coffeeshopsite.netlify.app" target="_blank">
-              <img
-                src={Pourover}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
-            </a>
-            <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">
-                Crypto Tracker
-              </div>
-              <p className="pb-2">Description</p>
-              <p className="font-extrabold">Technologies Used:</p>
-              <p>Lorem ipsum dolor sit.</p>
-            </div>
-            <div className="text-center mt-5">
-              <a href="https://coffeeshopsite.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Landing Pages */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
-        <div className="pb-8">
-          <p className="text-5xl font-bold inline">Landing Pages</p>
-          <p className="py-6 text-xl">
-            Here are a few landing pages I've made:
-          </p>
-        </div>
-
-        {/* Projects */}
-        <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4 mt-[-20px] text-black">
-          {/* Project 1 • Forum of Passion */}
-          <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://www.edgewoodcontracting.com" target="_blank">
-              <img
-                src={Edgewood}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
-            </a>
-            <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">
-                Forum of Passion
-              </div>
-              <p className="pb-2">Description</p>
-              <p className="font-extrabold">Technologies Used:</p>
-              <p>React • Astro • Tailwind</p>
-            </div>
-            <div className="text-center mt-5">
-              <a href="https://www.edgewoodcontracting.com" target="_blank">
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/rossagordon/Edgewood-Contracting"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-
-          {/* Project 2 • Edgewood Contracting */}
-          <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://www.edgewoodcontracting.com" target="_blank">
-              <img
-                src={Edgewood}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
-            </a>
-            <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">
-                Edgewood Contracting
-              </div>
-              <p className="pb-2">Description</p>
-              <p className="font-extrabold">Technologies Used:</p>
-              <p>React • Tailwind CSS</p>
-            </div>
-            <div className="text-center mt-5">
-              <a href="https://www.edgewoodcontracting.com" target="_blank">
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/rossagordon/Edgewood-Contracting"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-
-          {/* Project 3 • Lotus of my Heart */}
+          {/* Project 2 • Lotus of my Heart */}
           <div className="rounded-md shadow-lg bg-[#fff]">
             <a href="https://www.lotusofmyheart.net/" target="_blank">
               <img
@@ -210,9 +64,8 @@ const Projects = () => {
               <div className="font-bold text-xl mb-2 text-center">
                 Lotus of my Heart
               </div>
-              <p className="pb-2">Description</p>
               <p className="font-extrabold">Technologies Used:</p>
-              <p>React • Tailwind CSS</p>
+              <p>React • Tailwind</p>
             </div>
             <div className="text-center mt-5">
               <a href="https://www.lotusofmyheart.net/" target="_blank">
@@ -230,6 +83,74 @@ const Projects = () => {
               </a>
             </div>
           </div>
+
+          {/* Project 3 • Crypto Tracker */}
+          <div className="rounded-md shadow-lg bg-[#fff]">
+            <a href="https://krustyscrypto.netlify.app/" target="_blank">
+              <img
+                src={Seal}
+                className="rounded-lg hover:scale-105 duration-300 mx-auto"
+                alt="A hand poured latte next to a laptop"
+              />
+            </a>
+            <div className="px-6 py-4 text-center">
+              <div className="font-bold text-xl mb-2 text-center">
+                Crypto Dashboard
+              </div>
+              <p className="font-extrabold">Technologies Used:</p>
+              <p>React, Tailwind, CoinGecko API</p>
+            </div>
+            <div className="text-center mt-5">
+              <a href="https://krustyscrypto.netlify.app/" target="_blank">
+                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/* Project 4 • AI Image Generator */}
+          <div className="rounded-md shadow-lg bg-[#fff]">
+            <a href="https://coffeeshopsite.netlify.app" target="_blank">
+              <img
+                src={Generator}
+                className="rounded-lg hover:scale-105 duration-300"
+                alt="A hand poured latte next to a laptop"
+              />
+            </a>
+            <div className="px-6 py-4 text-center">
+              <div className="font-bold text-xl mb-2 text-center">
+                AI Image Generator • [IN PROGRESS]
+              </div>
+              <p className="pb-2"></p>
+              <p className="font-extrabold">Technologies Used:</p>
+              <p>React, Tailwind, Dall-E-2 API </p>
+            </div>
+            <div className="text-center mt-5">
+              <a href="https://coffeeshopsite.netlify.app/" target="_blank">
+                {/* <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                  Demo
+                </button> */}
+              </a>
+              <a
+                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
