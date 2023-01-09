@@ -17,14 +17,48 @@ const Projects = () => {
 
         {/* Projects */}
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4 mt-[-20px] text-black">
-          {/* Project 1 • Good Coffee */}
+          {/* Project 1 • AI Image Generator */}
+          <div className="rounded-md shadow-lg bg-[#fff]">
+            <a href="https://ai-img-generator.netlify.app/" target="_blank">
+              <img
+                src={Generator}
+                className="rounded-lg hover:scale-105 duration-300 w-full"
+                alt="A hand poured latte next to a laptop"
+              />
+            </a>
+            <div className="px-6 py-4 text-center">
+              <div className="font-bold text-xl mb-2 text-center">
+                AI Image Generator
+              </div>
+              <p className="pb-2"></p>
+              <p className="font-extrabold">Technologies Used:</p>
+              <p>React, Tailwind, Dall-E-2 API </p>
+            </div>
+            <div className="text-center mt-5">
+              <a href="https://ai-img-generator.netlify.app/" target="_blank">
+                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/rossagordon/image-generator"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/* Project 2 • Good Coffee */}
           <div className="rounded-md shadow-lg">
             <a href="https://coffeeshopsite.netlify.app" target="_blank">
-            <img
-              src={Pourover}
-              className="rounded-lg hover:scale-105 duration-300"
-              alt="A hand poured latte next to a laptop"
-            />
+              <img
+                src={Pourover}
+                className="rounded-lg hover:scale-105 duration-300"
+                alt="A hand poured latte next to a laptop"
+              />
             </a>
             <div className="px-6 py-4 text-center">
               <div className="font-bold text-xl mb-2 text-center">
@@ -36,7 +70,7 @@ const Projects = () => {
             </div>
             <div className="text-center mt-5">
               <a href="https://coffeeshopsite.netlify.app/" target="_blank">
-              <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
+                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
                   Demo
                 </button>
               </a>
@@ -51,7 +85,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 2 • Lotus of my Heart */}
+          {/* Project 3 • Lotus of my Heart */}
           <div className="rounded-md shadow-lg bg-[#fff]">
             <a href="https://www.lotusofmyheart.net/" target="_blank">
               <img
@@ -84,7 +118,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 3 • Crypto Tracker */}
+          {/* Project 4 • Crypto Tracker */}
           <div className="rounded-md shadow-lg bg-[#fff]">
             <a href="https://krustyscrypto.netlify.app/" target="_blank">
               <img
@@ -116,41 +150,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
-          {/* Project 4 • AI Image Generator */}
-          <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://coffeeshopsite.netlify.app" target="_blank">
-              <img
-                src={Generator}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
-            </a>
-            <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">
-                AI Image Generator • [IN PROGRESS]
-              </div>
-              <p className="pb-2"></p>
-              <p className="font-extrabold">Technologies Used:</p>
-              <p>React, Tailwind, Dall-E-2 API </p>
-            </div>
-            <div className="text-center mt-5">
-              <a href="https://coffeeshopsite.netlify.app/" target="_blank">
-                {/* <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Demo
-                </button> */}
-              </a>
-              <a
-                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
