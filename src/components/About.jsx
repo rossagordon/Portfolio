@@ -14,19 +14,19 @@ const About = () => {
             I'm Ross. Welcome to my portfolio.
           </h1>
           <p className="mb-4 text-xl">
-            I’m a Front-End Developer based in Richmond, Virginia. I’m
-            passionate about creating attractive, easy-to-use websites and
-            applications. Originally, my background is in music. I spent several
-            years touring as a drummer in North America and Europe. When my
-            touring slowed down, I began to work technical support roles at
-            Apple, where I became aware of my interest in web development.
+            As a Front-End Developer based in Richmond, VA, I excel in creating
+            aesthetically pleasing and user-friendly websites and applications.
+            My journey began as a drummer, touring across North America and
+            Europe, which eventually led me to technical support roles at Apple,
+            where I discovered my passion for web development.
           </p>
           <p className="mb-4 text-xl">
-            After a few months of online courses, I enrolled and graduated from
-            Nucamp Coding Bootcamp (Full Stack + Mobile). I plan to use my
-            acquired skills paired with my knowledge in troubleshooting to
-            continuously learn and grow as a developer. In my free time, I enjoy
-            playing drums, traveling to new countries, and getting outside.
+            With a Full Stack + Mobile certificate from Nucamp Coding Bootcamp
+            and experience as an Apple Genius, I bring a unique combination of
+            technical expertise and customer-centric approach to my work.
+            Currently, I am participating in a Career Experience program,
+            working as a Front-End Developer for Apple. In my free time, I enjoy
+            drumming, traveling, and technology.
           </p>
         </div>
         {/* <!--Right Col--> */}
