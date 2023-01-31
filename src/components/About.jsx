@@ -25,7 +25,7 @@ const About = () => {
             and experience as an Apple Genius, I bring a unique combination of
             technical expertise and customer-centric approach to my work.
             Currently, I am participating in a Career Experience program,
-            working as a Front-End Developer for Apple. In my free time, I enjoy
+            working as a Front-End Developer for Apple. Outside of coding, I enjoy
             drumming, traveling, and technology.
           </p>
         </div>
